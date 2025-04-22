@@ -21,9 +21,9 @@ This project utilizes the MIMIC-IV dataset, which includes extensive clinical da
 * Joblib
 
 # Installation
-"""
+```
 pip install pandas matplotlib seaborn scikitlearn imblearn fastai skopt joblib
-"""
+```
 
 # Conclusion
 This project demonstrates the potential of machine learning in predicting sepsis up to 6 hours before onset, which can enable timely medical intervention. The best-performing model achieved an accuracy of 85%, showing promise for use in clinical decision support systems.
