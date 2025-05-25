@@ -36,11 +36,13 @@ Selective columns that may provied the machine learning model with a advantagiou
 
 ## 3. Pre-Processing the Data.
 
-* **Ojbective:** Clean the data impute missing data, remove outliers and imporove the predictive power of the model using esentail features. 
+* **Ojbective:** Clean the data impute missing data, address outliers and imporove the predictive power of the model using esentail features. 
 
 Both the training and testing datasets have been preprocessed using consistent techniques to ensure data integrity and model reliability. For categorical variables, missing values were not present and lable encoding was applied for feature encoding.
 
 For numerical features, missing values were imputed using an Iterative Imputer. Additionally, the outliers were not removed as the abnomaities present in the data provied the model will strong indications of the onset of sepsis in the future.
+
+As for the outliers in the dataset, none of the outliers in the dataset were removed as the ouliers in this pariticular problem play an important role in providing key insight into the future onset of sepsis for patitents.
 
 ## 4. Building a models that predict if patients will contract sepsis.
 
